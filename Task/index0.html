@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Inventory Page</title>
+</head>
+<body>
+    
+    <section> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary nav ">
+       <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button> -->
+     
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item active">
+             <a class="nav-link  home" href="index.html">Home <span class="sr-only">(current)</span></a>
+           </li>
+         </ul>
+       </div>
+     </nav>
+   </section>
+
+
+
+<h5 class="text-left pt-2" style=" font-weight: bolder; font-family:Arial, Helvetica, sans-serif;">Inventory</h5>
+ <div class="container-fluid mt-2">
+   
+    <div class="heading-container">
+        <div class="row ">
+            <div class="col-1 ">
+                <h6 class="pb-2">#</h6>
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+                <p>7</p>
+                <p>8</p>
+                <p>9</p>
+                <p>10</p>
+
+            </div>
+            <div class="col-1 ">
+                <h6 class="pb-2">Goods</h6>
+                <p>Yam</p>
+                <p>Garri</p>
+                <p>plantain</p>
+                <p>Rice</p>
+                <p>Wheat</p>
+                <p>Corn</p>
+                <p>Beans</p>
+                <p>Tomatoe</p>
+                <p>Onions</p>
+                <p>Fish</p>
+            </div>
+            <div class="col-lg-2 ">
+                <h6 class="pb-2  text-center">Cost Price</h6>
+                <input type="text" class="form-control form-control-sm mb-2" id="cp" value="400" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="cp1" value="100" disabled >
+                <input type="text" class="form-control form-control-sm mb-2" id="cp2" value="200" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="cp3" value="100" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="cp4" value="500" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="cp5" value="80" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="cp6" value="90" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="cp7" value="50" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="cp8" value="50" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="cp9" value="300" disabled>
+            </div>
+            <div class="col-lg-2" >
+                <h6 class="pb-2  text-center">Selling Price</h6>
+                <input type="text" class="form-control form-control-sm mb-2" id="sp" value="500" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="sp1" value="150" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="sp2" value="250" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="sp3" value="150" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="sp4" value="600" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="sp5" value="100" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="sp6" value="120" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="sp7" value="80" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="sp8" value="70" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="sp9" value="450" disabled>
+            </div>
+            <div class="col-lg-2">
+                <h6 class="pb-2 text-center">Quantity Bought</h6>
+                <input type="text" class="form-control form-control-sm mb-2" id="qtyBought" >
+                <input type="text" class="form-control form-control-sm mb-2" id="qtyBought1" >
+                <input type="text" class="form-control form-control-sm mb-2" id="qtyBought2" >
+                <input type="text" class="form-control form-control-sm mb-2" id="qtyBought3" >
+                <input type="text" class="form-control form-control-sm mb-2" id="qtyBought4" >
+                <input type="text" class="form-control form-control-sm mb-2" id="qtyBought5" >
+                <input type="text" class="form-control form-control-sm mb-2" id="qtyBought6" >
+                <input type="text" class="form-control form-control-sm mb-2" id="qtyBought7" >
+                <input type="text" class="form-control form-control-sm mb-2" id="qtyBought8" >
+                <input type="text" class="form-control form-control-sm mb-2" id="qtyBought9" >
+            </div>
+            <div class="col-lg-2">
+                <h6 class="pb-2 text-center">Amount</h6>
+                <input type="text" class="form-control form-control-sm mb-2" id="amt" disabled >
+                <input type="text" class="form-control form-control-sm mb-2" id="amt1" disabled >
+                <input type="text" class="form-control form-control-sm mb-2" id="amt2" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="amt3" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="amt4" disabled >
+                <input type="text" class="form-control form-control-sm mb-2" id="amt5" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="amt6" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="amt7" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="amt8" disabled>
+                <input type="text" class="form-control form-control-sm mb-2" id="amt9" disabled>
+            </div>
+        </div>
+    </div>
+    <div class="container "><div class="row mt-2">
+        <div class="col-lg-3 p-3">
+            <button class="btn btn-primary  mr-4 pr-3 pl-3 ml-2" onclick="calculateAmount()" id="total" >Calculate Amount Each</button>
+        </div>
+        <div class="col-lg-3 p-3">
+            <button class="btn btn-primary  mr-4 pr-3 pl-3 ml-2 " onclick="calculateTotalAmout()" id="total" >Calculate Total Amount </button>
+            <input type="text" class="form-control form-control-sm amount mr-4 mt-3 ml-2" id="totalAmount" disabled placeholder="">
+
+        </div>
+        <div class="col-lg-3 p-3 text ">
+            <button class="btn btn-primary ml-1 pr-5 pl-5 mb-3" onclick="calculateProfit()" id="profit">Calculate profit </button>
+            <input type="text" class="form-control form-control-sm amount mr-4  ml-1" id="prof" disabled placeholder="">
+        </div>
+    </div></div>
+ </div>
+    
+
+
+
+
+
+
+
+
+
+<script src="Js/index.js"></script>
+</body>
+</html>
